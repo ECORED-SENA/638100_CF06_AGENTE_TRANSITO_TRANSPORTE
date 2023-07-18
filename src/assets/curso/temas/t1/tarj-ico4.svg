@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="87" viewBox="0 0 90 87">
+  <g id="Grupo_1062523" data-name="Grupo 1062523" transform="translate(-1228 -2641)">
+    <g id="Grupo_1062514" data-name="Grupo 1062514" transform="translate(630)">
+      <g id="Grupo_1062505" data-name="Grupo 1062505" transform="translate(327)">
+        <rect id="Rectángulo_373175" data-name="Rectángulo 373175" width="90" height="87" rx="7" transform="translate(271 2641)" fill="#fdd615"/>
+      </g>
+    </g>
+    <path id="Trazado_795668" data-name="Trazado 795668" d="M-6883.509-8977.859s13.246-68.465,30.455-69.148,26.032,69.148,26.032,69.148" transform="translate(8128.224 11700)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-width="2"/>
+    <g id="Elipse_8051" data-name="Elipse 8051" transform="translate(1242 2703)" fill="#f0b62a" stroke="#12263f" stroke-width="2">
+      <circle cx="6" cy="6" r="6" stroke="none"/>
+      <circle cx="6" cy="6" r="5" fill="none"/>
+    </g>
+    <g id="Grupo_1062521" data-name="Grupo 1062521" transform="matrix(0.545, -0.839, 0.839, 0.545, -1165.642, 1458.919)">
+      <line id="Línea_320" data-name="Línea 320" x2="14.683" transform="translate(274.678 2706.033) rotate(-2)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-width="2"/>
+      <path id="Trazado_795666" data-name="Trazado 795666" d="M0,0a54.225,54.225,0,0,0,4.381,3.29L0,6.578" transform="translate(284.927 2702.192) rotate(-2)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-width="2"/>
+    </g>
+    <g id="Grupo_1062522" data-name="Grupo 1062522" transform="translate(3857.995 1764.396) rotate(76)">
+      <line id="Línea_320-2" data-name="Línea 320" x2="14.683" transform="translate(274.678 2706.033) rotate(-2)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-width="2"/>
+      <path id="Trazado_795666-2" data-name="Trazado 795666" d="M0,0a54.225,54.225,0,0,0,4.381,3.29L0,6.578" transform="translate(284.927 2702.192) rotate(-2)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

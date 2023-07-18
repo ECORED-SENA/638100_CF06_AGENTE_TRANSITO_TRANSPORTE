@@ -2,18 +2,262 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 18%
+    right: 81%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 15%
+    right: 13%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 79%
+    width: 21%
+  &-4
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 66%
+    right: 12%
+    width: 20%
 
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
+
+.banner-interno__fondo
+  background-image: url('../assets/curso/temas/mini-portada.png') !important
+
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+.lista-ul--color.color-secundario li > i:first-of-type
+  color: $color-secundario !important
+.bg-shadow
+  box-shadow: 0px 0px 4px #959494   
+
+.fondo-gris
+  background: #E8E8E8
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -2.4rem
+.fondo-gris2
+  background: #F6F6F6
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -2.4rem 
+.fondo-t1
+  background: url('../assets/curso/temas/t1/fondo.png')
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -2.4rem
+.fondo1-t1
+  background: url('../assets/curso/temas/t1/fondo2.png')
+  background-position: center bottom
+  background-size: cover
+  background-repeat: no-repeat
+.fondo2-t1
+  background: url('../assets/curso/temas/t1/fondo3.png')
+  background-position: center
+  background-size: 100% 50%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -2.4rem
+.fondo3-t1
+  background: url('../assets/curso/temas/t1/fondo-tarj.png')
+  background-position: center bottom
+  background-size: cover
+  background-repeat: no-repeat
+.fondo-t2
+  background: url('../assets/curso/temas/t2/fondo.png')
+  background-position: center bottom
+  background-size: cover
+  background-repeat: no-repeat
+.fondo-t4
+  background: url('../assets/curso/temas/t4/fondo.png')
+  background-position: center
+  background-size: 100% 50%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -2.4rem
+.fondo2-t4
+  background: url('../assets/curso/temas/t4/fondo2.png')
+  background-position: center bottom
+  background-size: 100% 80%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -2.4rem
+.fondo3-t4
+  background: url('../assets/curso/temas/t4/fondo-slider.png')
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -2.4rem
+.fondo4-t4
+  background: url('../assets/curso/temas/t4/fondo-slider2.png')
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+.fondo5-t4
+  background: url('../assets/curso/temas/t4/fondo3.png')
+  background-position: center
+  background-size: contain
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -2.4rem
+.fondo6-t4
+  background: url('../assets/curso/temas/t4/fondo4.png')
+  background-position: center
+  background-size: 100%
+  background-repeat: no-repeat
+.fondo-tarj1
+  background: url('../assets/curso/temas/t4/fondo-tarj.png')
+  background-position: center bottom
+  background-size: cover
+  background-repeat: no-repeat
+.fondo-tarj2
+  background: url('../assets/curso/temas/t4/fondo-tarj2.png')
+  background-position: center bottom
+  background-size: cover
+  background-repeat: no-repeat
+
+
+.bg-color-primario
+  background-color: $color-primario
+.bg-color-secundario
+  background-color: $color-secundario
+.bg-acento-contenido
+  background-color: $color-acento-contenido 
+.bg-acento-botones
+  background-color: $color-acento-botones 
+.bg-white
+  background-color:#FFFFFF  
+.bg-1
+  background: #FFF9DC
+.bg-2
+  background:#FEF1AD
+.bg-3
+  background:#F1EBDD
+.bg-4
+  background:#DFDFDF
+.bg-5
+  background: #B5B5B5
+.bg-6
+  background:#F6F6F6
+.bg-7
+  background:#E8E8E8
+.bg-8
+  background:#F7F7F7
+
+.t-gold
+  color: #6C4F0A
+.t-red
+  color: #D40A32
+.t-yellow
+  color: #FDD615
+.lista-ul--color.color-gold li > i:first-of-type
+  color: #6C4F0A
+
+.acordion__accion__btn--b 
+  border: 1px solid #D40A32
+  background: #D40A32
+.acordion__accion__btn--b i 
+  color: #FFF
+.tabs-c__header
+  margin-bottom: 0px
+.tabs-c.color-acento-botones .tabs-c__tab--active span
+  color: #D40A32
+  font-weight: bold
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #D40A32
+  border-color: #D40A32
+  background-image: url('../assets/curso/temas/t4/arrow.svg') !important
+.slyder-a__bullets__item
+  background-color: #D40A32
+  opacity: 0.35
+.slyder-a__bullets__item--active
+  background-color: #D40A32
+  border-color: #D40A32
+  opacity: 1
+.slyder__btn
+  background-color: #F1D4D9
+.slyder__btn:hover 
+    background-color: #D40A32
+.slyder__btn i
+  color: #FFF
+.bloque-texto-d i
+  font-size: 2em
+  color: #FDD615
+
+.tabla-a.tema4 table 
+  min-width: 595px  
+.tabla-a.tema4-2 td, .tabla-a.tema4-2 th
+  border: 1px solid #2B2B2D
+.border-tabla
+  border: 1px solid #2B2B2D 
+.col-25w    
+  width: 25%
+
+.bg-hover
+  background-color: #F1EBDD
+  transition: all 0.3s ease-out
+  cursor: pointer
+  &:hover
+    background-color: #D40A32
+    transition: all 0.3s ease-out
+    p
+      color: #FFF
+
+.list 
+  width: 100%
+  display: flex !important
+  &__item
+    &__icon 
+      position: relative
+      width: 30px
+      margin-right: -1rem
+      margin-top: 4px
+      img 
+        width: 30px
+        vertical-align: middle
+  &__txt 
+    p:first-child,
+    h4:first-child 
+      margin-top: 6px       
+.box-ico
+  background-color: #000000
+  border-top: 7px solid white
+  *
+    color: white 
+

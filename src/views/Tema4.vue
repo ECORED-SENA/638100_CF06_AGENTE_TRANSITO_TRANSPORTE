@@ -27,8 +27,9 @@
 
           figure.mb-5(data-aos="fade-down")
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-            figcaption Video. 
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/qc3huqo2Az0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            figcaption Video. Metodología de investigación de accidentes de tránsito
+
 
           .row.justify-content-start.mb-4
             .col-auto(data-aos="fade")
@@ -87,7 +88,7 @@
           .col-lg-10.mb-5
             .tarjeta.bg-2.p-3
               .row.align-items-center 
-                .col-lg-1.col-md-2.mb-4.mb-md-0.pe-lg-0
+                .col-lg-1.col-md-2.col-4.mb-4.mb-md-0.pe-lg-0
                   img.mx-auto(src='@/assets/curso/temas/t4/ico.svg' alt='')
                 .col-lg-11.col-md-10
                   p.mb-0
@@ -115,54 +116,54 @@
               p.mb-0 #[b Figura 1.] Enfoque cuantitativo de la investigación
             img(src='@/assets/curso/temas/t4/fig.svg', alt='Esquema de diagrama que expone los enfoques cuantitativos de una investigación de accidentes de tránsito, así: Enfoque 1: Uso de estadística. Enfoque 2: Medición de fenómenos. Enfoque 3: Prueba de hipótesis. Enfoque 4: Análisis de causas y efectos. En la parte inferior del diagrama se enuncian características del enfoque cuantitativo, como: 1, es secuencial. 2, es deductivo. 3, es probatorio. 4, analiza la realidad objetiva. ')
 
-          h4.t-gold(data-aos="fade") Metodología para la investigación pericial de accidentes
+          h4.t-gold(data-aos="fade") Proceso investigativo
           p(data-aos="fade") Es importante señalar que toda investigación parte de un problema, a partir del cual nace la pregunta de investigación, que debe ser resuelta a través de procedimientos de indagación, reuniendo la mayor cantidad de información posible que debe ser analizada e interpretada para luego emitir resultados de esos análisis.  Aplicado a la investigación de accidentes de tránsito, el proceso implicaría los siguientes pasos: 
 
           .row.justify-content-center.mb-2(data-aos="fade-down")
             .col-lg-5.col-md-6.mb-4
-              .tarjeta.bg-5.p-3.h-100
+              .tarjeta.bg-5.p-3.h-100.d-md-flex.align-items-center
                 .row.align-items-center 
-                  .col-md-3
+                  .col-md-3.col-3.mb-3.mb-md-0
                     img(src='@/assets/curso/temas/t4/tarj1.svg', alt='')
                   .col-md-9
                     h5.mb-1 Identificar - definir un problema
                     p.mb-0 Accidente de tránsito.  
             .col-lg-5.col-md-6.mb-4
-              .tarjeta.bg-5.p-3.h-100
+              .tarjeta.bg-5.p-3.h-100.d-md-flex.align-items-center
                 .row.align-items-center 
-                  .col-md-3
+                  .col-md-3.col-3.mb-3.mb-md-0
                     img(src='@/assets/curso/temas/t4/tarj2.svg', alt='')
                   .col-md-9
                     h5.mb-1 Reunir información necesaria para ello
                     p.mb-0 Búsqueda de elementos materiales probatorios (EMP) y evidencia física (EF).
             .col-lg-5.col-md-6.mb-4
-              .tarjeta.bg-5.p-3.h-100
+              .tarjeta.bg-5.p-3.h-100.d-md-flex.align-items-center
                 .row.align-items-center 
-                  .col-md-3
+                  .col-md-3.col-3.mb-3.mb-md-0
                     img(src='@/assets/curso/temas/t4/tarj3.svg', alt='')
                   .col-md-9
                     h5.mb-1 Plantearse una pregunta
                     p.mb-0 ¿Cuáles fueron las causas?
             .col-lg-5.col-md-6.mb-4
-              .tarjeta.bg-5.p-3.h-100
+              .tarjeta.bg-5.p-3.h-100.d-md-flex.align-items-center
                 .row.align-items-center 
-                  .col-md-3
+                  .col-md-3.col-3.mb-3.mb-md-0
                     img(src='@/assets/curso/temas/t4/tarj4.svg', alt='')
                   .col-md-9
                     h5.mb-1 Analizarla e interpretarla
                     p.mb-0 Aplicación de modelos físicos, interpretación de los fundamentos normativos.
             .col-lg-5.col-md-6.mb-4
-              .tarjeta.bg-5.p-3.h-100
+              .tarjeta.bg-5.p-3.h-100.d-md-flex.align-items-center
                 .row.align-items-center 
-                  .col-md-3
+                  .col-md-3.col-3.mb-3.mb-md-0
                     img(src='@/assets/curso/temas/t4/tarj5.svg', alt='')
                   .col-md-9
                     h5.mb-1 Pensar en la manera de responder
                     p.mb-0 Programa metodológico.
             .col-lg-5.col-md-6.mb-4
-              .tarjeta.bg-5.p-3.h-100
+              .tarjeta.bg-5.p-3.h-100.d-md-flex.align-items-center
                 .row.align-items-center 
-                  .col-md-3
+                  .col-md-3.col-3.mb-3.mb-md-0
                     img(src='@/assets/curso/temas/t4/tarj6.svg', alt='')
                   .col-md-9
                     h5.mb-1 Emitir un resultado
@@ -261,7 +262,7 @@
     .row.justify-content-center 
       .col-lg-10.mb-5(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 3.] Codificación hipótesis accidentes de tránsito. 
+          p.mb-0 #[b Figura 3.] Codificación hipótesis accidentes de tránsito
         img.mb-3(src='@/assets/curso/temas/t4/fig3.svg', alt='Diagrama que muestra los códigos asociados a las distintas hipótesis de accidentes de tránsito, así: 1, Ciclistas y motociclistas: códigos 090 y 099. 2, Conductores en general: códigos 101 y 157. 3, Vehículos: códigos 201 y 217. 4, Vía: códigos 301 y 308. 5, Peatones: códigos 401 y 411. 6, Pasajeros o acompañantes: códigos 501 a 506.')
         
 
@@ -326,8 +327,8 @@
 
     figure.mb-5(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. 
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/fnUSlZgZ3aQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Metodología para la investigación pericial de accidentes
 
     .row.justify-content-start.mb-4
       .col-auto(data-aos="fade")
@@ -532,13 +533,13 @@
           .col-lg-6
             .bg-1.text-center.p-2.mb-2
               p.mb-0 Valor máximo Coeficiente 0.88
-            p = 16.06m/s =57.9km/h
+            p = 16.06m/s = 57.9 km/h
         p.mb-0 Donde:
         p.mb-0 Vi = velocidad inicial
         p.mb-0 g = valor de la gravedad
         p.mb-0 d = distancia de detención usando la huella de frenado como referente
         p μ = coeficiente de fricción
-        p En consecuencia, se puede determinar que, el vehículo transitaba por su carril y al inicio de su huella de frenado se desplazaba a una velocidad que oscila entre 50.9 km/h y 57.9km/h.
+        p En consecuencia, se puede determinar que, el vehículo transitaba por su carril y al inicio de su huella de frenado se desplazaba a una velocidad que oscila entre 50.9 km/h y 57.9 km/h.
 
 
     Separador 
@@ -547,7 +548,8 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 4.1 Conclusión de la investigación
 
-    p.mb-4(data-aos="fade") La etapa de conclusión es donde se precisan todos los análisis en hechos concretos para poder conjeturar ideas precisas, con datos confiables, que tengan las características del método científico en cuanto a que sean refutables, reproducibles, objetivos, racionales, sistemáticos, fácticos.
+    p(data-aos="fade") La etapa de conclusión es donde se precisan todos los análisis en hechos concretos para poder conjeturar ideas precisas, con datos confiables, que tengan las características del método científico en cuanto a que sean refutables, reproducibles, objetivos, racionales, sistemáticos, fácticos.
+    p.mb-4(data-aos="fade") Tales características se pueden definir así: 
 
     .row.fondo5-t4.align-items-center.mb-4
       .col-lg-12.col-12.px-lg-5.px-md-5.px-4
@@ -622,7 +624,7 @@
       .col-lg-10
         .tarjeta.fondo6-t4.p-4
           .row.align-items-center
-            .col-lg-2
+            .col-lg-2.col-4.mb-3.mb-lg-0
               img.px-lg-2(src='@/assets/curso/temas/t4/ico5.svg', alt='')
             .col-lg-10  
               h5.t-yellow.mb-3 Retrospectiva del accidente 

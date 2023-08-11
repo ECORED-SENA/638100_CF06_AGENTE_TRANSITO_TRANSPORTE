@@ -185,7 +185,9 @@
 
     .row.justify-content-center.mb-3
       .col-lg-7.mb-4(data-aos="fade-right")
-        p La Primera Ley de Newton, también conocida como ley de la inercia, plantea que un cuerpo o partícula tiende a permanecer en reposo o en movimiento rectilíneo a menos que una fuerza externa cambie su estado.
+        p La Primera Ley de Newton, también conocida como 
+          b ley de la inercia
+          |, plantea que un cuerpo o partícula tiende a permanecer en reposo o en movimiento rectilíneo a menos que una fuerza externa cambie su estado.
         p Por lo tanto, la ley postula que un objeto no puede cambiar su posición original, ya sea en reposo o en movimiento uniforme en línea recta, a menos que se aplique una fuerza o una serie de fuerzas con una resultante distinta de cero.
       .col-lg-5.col-md-8.col-12.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/t1/img5.svg', alt='')
@@ -197,12 +199,14 @@
         p En lo relacionado con la Primera Ley de Newton, tenga en cuenta los siguientes aspectos clave:
         AcordionA(tipo="b" clase-tarjeta="tarjeta bg-1")
           .row(titulo="Rozamiento")
-            p Newton tuvo en cuenta el hecho de que los cuerpos en movimiento están constantemente sujetos a rozamiento, lo que los frena gradualmente.
+            p Newton tuvo en cuenta el hecho de que los cuerpos en movimiento están constantemente sujetos a 
+              b rozamiento
+              |, lo que los frena gradualmente.
           .row(titulo="Fuerza de fricción")
             p El rozamiento es novedad en el concepto anterior, que consideraba que el movimiento o la restricción de un cuerpo dependían, completamente, de si existía una fuerza externa aplicada sobre él, sin apreciar la fuerza de fricción.
           .row(titulo="Fuerzas externas")
             p Entonces, un objeto que se mueve a una velocidad constante en línea recta significa que no hay una fuerza externa neta o, en otras palabras, el objeto en movimiento no se detendrá naturalmente si no se le aplica ninguna fuerza.
-          .row(titulo="Reposo versus interferencia energética")
+          .row(titulo="Reposo <em>versus</em> interferencia energética")
             p Se sabe que los objetos en reposo tienen velocidad cero, por lo que cualquier cambio en la velocidad se debe a la aplicación de una fuerza o interferencia energética.
 
     .tarjeta.bg-3.p-4.mb-5    
@@ -224,24 +228,21 @@
 
     .row.justify-content-center.mb-3
       .col-lg-7.mb-4(data-aos="fade-right")
-        p La Segunda Ley de Newton establece que la aceleración de un cuerpo se relaciona directamente con la fuerza aplicada y la masa del cuerpo. Esta ley se expresa matemáticamente de la siguiente manera: F=MA, donde F es la fuerza, 
-          span.t-gold.fw-bold M 
+        p La Segunda Ley de Newton establece que la aceleración de un cuerpo se relaciona directamente con la fuerza aplicada y la masa del cuerpo. Esta ley se expresa matemáticamente de la siguiente manera: 
+          span.t-gold.fw-bold.t-italic F=ma
+          |, donde F es la fuerza, 
+          span.t-gold.fw-bold.t-italic m 
           | es la masa y 
-          span.t-gold.fw-bold A 
+          span.t-gold.fw-bold.t-italic a 
           | es la aceleración.
         p En otras palabras, esta ley señala que un objeto acelerará en la misma dirección y con la misma magnitud que la fuerza aplicada. También es la base de explicación de muchos fenómenos físicos, como el movimiento de los planetas alrededor del sol, el movimiento de los proyectiles, el movimiento de los objetos en la Tierra y los movimientos de objetos en un campo gravitacional.
         .bg-3.py-3.px-4
           p La Segunda Ley de Newton tiene una gran influencia en todos los campos de la física y la tecnología. Esta ley es la que cuantifica a la fuerza como una entidad que tiene un valor determinado por la aceleración y la masa del cuerpo que la aplica, lo cual indica que su proporcionalidad está directamente relacionada con la materia y el cambio de velocidad cuando incide sobre otra.
           .row.justify-content-center
-            .col-md-6
+            .col-md-6.col-lg-5
               .tarjeta.bg-acento-contenido
-                .row.justify-content-center.align-items-center.text-white.p-4
-                  .col-4
-                    p.mb-0 ∑𝑓=𝑚𝑎
-                  .col-6
-                    p.mb-0 #[b f] = fuerza
-                    p.mb-0 #[b m] = masa 
-                    p.mb-0 #[b a] = aceleración
+                .row.justify-content-center.align-items-center.text-white.p-4.py-2
+                  img(src='@/assets/curso/temas/t1/formula.svg', alt='')
       .col-lg-5.col-md-8.col-12.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/t1/img8.svg', alt='')
 
@@ -263,10 +264,17 @@
             p La masa es directamente proporcional a la fuerza y, a su vez, el cambio de velocidad lo es, de acuerdo con la Segunda Ley de Newton, lo cual se convierte en un principio muy valioso para tener en cuenta, especialmente, en el establecimiento de velocidades de circulación por carreteras, además de otros aspectos.
           .row(titulo="Cantidad de movimiento")
             p Cuando la masa no es constante, no aplica la expresión F=ma, por lo cual lo que se debe hacer en estos casos es tomar la magnitud física denominada cantidad de movimiento, la cual está expresada en el producto de la masa por la velocidad de un cuerpo.
-            h5.mb-0 P= mv Donde 
-            h5.mb-0 P= cantidad de movimiento 
-            h5.mb-0 m= masa
-            h5 v = velocidad.
+            h5.mb-1.t-italic P=mv
+            p.mb-1 Donde 
+            p.mb-0 
+              span.fw-bold.t-italic P = 
+              | Cantidad de movimiento
+            p.mb-0 
+              span.fw-bold.t-italic m = 
+              | Masa
+            p 
+              span.fw-bold.t-italic v = 
+              | Velocidad
 
     .row.justify-content-center
       .col-lg-8.mb-4(data-aos="fade-right")
@@ -280,8 +288,8 @@
           .row(titulo="Expresión primordial")
             p Ya con esta derivada, se llega a la expresión primordial de la Segunda Ley de Newton, que indica:
             img(src='@/assets/curso/temas/t1/form3.svg', alt='' style="width:105px;")
-          .row(titulo="Cantidad de movimiento, momentum, ímpetu o momento lineal")
-            p La cantidad de movimiento se conoce por la expresión #[b p=mv], que significa que la magnitud vectorial que tiene un cuerpo en movimiento es directamente proporcional al producto de la masa por la velocidad del objeto
+          .row(titulo="Cantidad de movimiento, <em>momentum</em>, ímpetu o momento lineal")
+            p La cantidad de movimiento se conoce por la expresión #[b #[em p=mv]], que significa que la magnitud vectorial que tiene un cuerpo en movimiento es directamente proporcional al producto de la masa por la velocidad del objeto
       .col-lg-4.col-md-8.col-12.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/t1/img10.png', alt='')
 
@@ -339,12 +347,12 @@
             p Las huellas son marcas impresas que dejan los neumáticos o la estructura de los vehículos en la capa de rodadura por acción de la fricción; estos registros son muy importantes para determinar la velocidad a la que viajaba un rodante.
           .col-lg-7
             .bg-4.p-4 
-              p 𝑉𝑖 =√2𝑔𝑑𝜇 
+              p.t-italic Vi=√2gdu 
               p Donde: 
               p.mb-0 𝑉𝑖 = 𝑉𝑒𝑙𝑜𝑐𝑖𝑑𝑎𝑑 𝑖𝑛𝑖𝑐𝑖𝑎𝑙 𝑎 𝑙𝑎 𝑞𝑢𝑒 𝑣𝑖𝑎𝑗𝑎𝑏𝑎 𝑒𝑙 𝑣𝑒ℎí𝑐𝑢𝑙𝑜 𝑎𝑛𝑡𝑒𝑠 𝑑𝑒𝑙 𝑝𝑟𝑜𝑐𝑒𝑠𝑜 𝑑𝑒 𝑓𝑟𝑒𝑛𝑎𝑑𝑎 𝑒𝑛 𝑚/𝑠 
-              p.mb-0 𝑔= 𝐸𝑠 𝑙𝑎 𝑎𝑐𝑒𝑙𝑒𝑟𝑎𝑐𝑖ó𝑛 𝑑𝑒 𝑙𝑎 𝑔𝑟𝑎𝑣𝑒𝑑𝑎𝑑 𝑐𝑎𝑙𝑐𝑢𝑙𝑎𝑑𝑎 𝑒𝑛 9.8 𝑚/𝑠<sup>2</sup> 
-              p.mb-0 𝑑= 𝐸𝑠 𝑙𝑎 𝑙𝑜𝑛𝑔𝑖𝑡𝑢𝑑 𝑑𝑒 𝑙𝑎 ℎ𝑢𝑒𝑙𝑙𝑎 𝑒𝑛 𝑚𝑒𝑡𝑟𝑜𝑠 “𝑚” 
-              p.mb-0 𝜇= 𝐸𝑠 𝑒𝑙 𝑣𝑎𝑙𝑜𝑟 𝑑𝑒𝑙 𝑐𝑜𝑒𝑓𝑖𝑐𝑖𝑒𝑛𝑡𝑒 𝑑𝑒 𝑓𝑟𝑖𝑐𝑐𝑖ó𝑛 𝑑𝑒 𝑎𝑐𝑢𝑒r𝑑𝑜 𝑐𝑜𝑛 𝑙𝑎 𝑡𝑎𝑏𝑙𝑎 2
+              p.mb-0 𝑔 = 𝐸𝑠 𝑙𝑎 𝑎𝑐𝑒𝑙𝑒𝑟𝑎𝑐𝑖ó𝑛 𝑑𝑒 𝑙𝑎 𝑔𝑟𝑎𝑣𝑒𝑑𝑎𝑑 𝑐𝑎𝑙𝑐𝑢𝑙𝑎𝑑𝑎 𝑒𝑛 9.8 𝑚/𝑠<sup>2</sup> 
+              p.mb-0 𝑑 = 𝐸𝑠 𝑙𝑎 𝑙𝑜𝑛𝑔𝑖𝑡𝑢𝑑 𝑑𝑒 𝑙𝑎 ℎ𝑢𝑒𝑙𝑙𝑎 𝑒𝑛 𝑚𝑒𝑡𝑟𝑜𝑠 “𝑚” 
+              p.mb-0 𝜇 = 𝐸𝑠 𝑒𝑙 𝑣𝑎𝑙𝑜𝑟 𝑑𝑒𝑙 𝑐𝑜𝑒𝑓𝑖𝑐𝑖𝑒𝑛𝑡𝑒 𝑑𝑒 𝑓𝑟𝑖𝑐𝑐𝑖ó𝑛 𝑑𝑒 𝑎𝑐𝑢𝑒r𝑑𝑜 𝑐𝑜𝑛 𝑙𝑎 𝑡𝑎𝑏𝑙𝑎 2
       .py-5.bg-6(titulo="Coeficiente de fricción")
         .row.justify-content-center
           .col-md-11
@@ -352,13 +360,13 @@
             p Cuando el accidente ocurre en una carretera con pendiente y la huella queda impresa, es importante mencionar que el coeficiente de fricción se ve afectado por el ángulo de la pendiente, dependiendo de si el cuerpo va subiendo o va descendiendo.
           .col-lg-7
             .bg-4.p-4 
-              p 𝑉𝑖=√2𝑔𝑑(𝜇𝑐𝑜𝑠𝜃±𝑠𝑖𝑛𝜃) 
+              p.t-italic 𝑉𝑖=√2𝑔𝑑(𝜇𝑐𝑜𝑠𝜃±𝑠𝑖𝑛𝜃) 
               p Donde: 
               p.mb-0 𝑉𝑖 = 𝑉𝑒𝑙𝑜𝑐𝑖𝑑𝑎𝑑 𝑖𝑛𝑖𝑐𝑖𝑎𝑙 𝑎 𝑙𝑎 𝑞𝑢𝑒 𝑣𝑖𝑎𝑗𝑎𝑏𝑎 𝑒𝑙 𝑣𝑒ℎí𝑐𝑢𝑙𝑜 𝑎𝑛𝑡𝑒𝑠 𝑑𝑒𝑙 𝑝𝑟𝑜𝑐𝑒𝑠𝑜 𝑑𝑒 𝑓𝑟𝑒𝑛𝑎𝑑𝑎 𝑒𝑛 𝑚/𝑠 
-              p.mb-0 𝑔= 𝐸𝑠 𝑙𝑎 𝑎𝑐𝑒𝑙𝑒𝑟𝑎𝑐𝑖ó𝑛 𝑑𝑒 𝑙𝑎 𝑔𝑟𝑎𝑣𝑒𝑑𝑎𝑑 𝑐𝑎𝑙𝑐𝑢𝑙𝑎𝑑𝑎 𝑒𝑛 9.8 𝑚/𝑠<sup>2</sup> 
-              p.mb-0 𝑑= 𝐸𝑠 𝑙𝑎 𝑙𝑜𝑛𝑔𝑖𝑡𝑢𝑑 𝑑𝑒 𝑙𝑎 ℎ𝑢𝑒𝑙𝑙𝑎 𝑒𝑛 𝑚𝑒𝑡𝑟𝑜𝑠 “𝑚” 
-              p.mb-0 𝜇= 𝐸𝑠 𝑒𝑙 𝑣𝑎𝑙𝑜𝑟 𝑑𝑒𝑙 𝑐𝑜𝑒𝑓𝑖𝑐𝑖𝑒𝑛𝑡𝑒 𝑑𝑒 𝑓𝑟𝑖𝑐𝑐𝑖ó𝑛 𝑑𝑒 𝑎𝑐𝑢𝑒r𝑑𝑜 𝑐𝑜𝑛 𝑙𝑎 𝑡𝑎𝑏𝑙𝑎 2
-              p.mb-0 𝜃= 𝐸𝑠 𝑒𝑙 á𝑛𝑔𝑢𝑙𝑜 𝑑𝑒 𝑙𝑎 𝑝𝑒𝑛𝑑𝑖𝑒𝑛𝑡𝑒 (+𝑠 𝑖 𝑠𝑢𝑏𝑒 𝑦−𝑠𝑖 𝑏𝑎𝑗𝑎)
+              p.mb-0 𝑔 = 𝐸𝑠 𝑙𝑎 𝑎𝑐𝑒𝑙𝑒𝑟𝑎𝑐𝑖ó𝑛 𝑑𝑒 𝑙𝑎 𝑔𝑟𝑎𝑣𝑒𝑑𝑎𝑑 𝑐𝑎𝑙𝑐𝑢𝑙𝑎𝑑𝑎 𝑒𝑛 9.8 𝑚/𝑠<sup>2</sup> 
+              p.mb-0 𝑑 = 𝐸𝑠 𝑙𝑎 𝑙𝑜𝑛𝑔𝑖𝑡𝑢𝑑 𝑑𝑒 𝑙𝑎 ℎ𝑢𝑒𝑙𝑙𝑎 𝑒𝑛 𝑚𝑒𝑡𝑟𝑜𝑠 “𝑚” 
+              p.mb-0 𝜇 = 𝐸𝑠 𝑒𝑙 𝑣𝑎𝑙𝑜𝑟 𝑑𝑒𝑙 𝑐𝑜𝑒𝑓𝑖𝑐𝑖𝑒𝑛𝑡𝑒 𝑑𝑒 𝑓𝑟𝑖𝑐𝑐𝑖ó𝑛 𝑑𝑒 𝑎𝑐𝑢𝑒r𝑑𝑜 𝑐𝑜𝑛 𝑙𝑎 𝑡𝑎𝑏𝑙𝑎 2
+              p.mb-0 𝜃 = 𝐸𝑠 𝑒𝑙 á𝑛𝑔𝑢𝑙𝑜 𝑑𝑒 𝑙𝑎 𝑝𝑒𝑛𝑑𝑖𝑒𝑛𝑡𝑒 (+𝑠 𝑖 𝑠𝑢𝑏𝑒 𝑦−𝑠𝑖 𝑏𝑎𝑗𝑎)
       .py-5.bg-6(titulo="Vehículo que no se detiene")
         .row.justify-content-center
           .col-md-11
@@ -366,15 +374,15 @@
             p En los casos donde el vehículo no se detiene al final de la huella por acción del frenado, sino que termina con un impacto o choque que lo hace detener, se debe usar el siguiente modelo:
           .col-lg-7
             .bg-4.p-4 
-              p 𝑉𝑖 =√ 2𝑔𝑑𝜇+𝑉<sub>𝑓</sub><sup>2</sup>  
-              p 𝑉𝑖=√2𝑔𝑑(𝜇𝑐𝑜𝑠𝜃±𝑠𝑖𝑛𝜃)+𝑉<sub>𝑓</sub><sup>2</sup> 
+              p.t-italic 𝑉𝑖=√2𝑔𝑑𝜇+𝑉<sub>𝑓</sub><sup>2</sup>  
+              p.t-italic 𝑉𝑖=√2𝑔𝑑(𝜇𝑐𝑜𝑠𝜃±𝑠𝑖𝑛𝜃)+𝑉<sub>𝑓</sub><sup>2</sup> 
               p Donde: 
               p.mb-0 𝑉𝑖 = 𝑉𝑒𝑙𝑜𝑐𝑖𝑑𝑎𝑑 𝑖𝑛𝑖𝑐𝑖𝑎𝑙 𝑎 𝑙𝑎 𝑞𝑢𝑒 𝑣𝑖𝑎𝑗𝑎𝑏𝑎 𝑒𝑙 𝑣𝑒ℎí𝑐𝑢𝑙𝑜 𝑎𝑛𝑡𝑒𝑠 𝑑𝑒𝑙 𝑝𝑟𝑜𝑐𝑒𝑠𝑜 𝑑𝑒 𝑓𝑟𝑒𝑛𝑎𝑑𝑎 𝑒𝑛 𝑚/𝑠 
-              p.mb-0 𝑔= 𝐸𝑠 𝑙𝑎 𝑎𝑐𝑒𝑙𝑒𝑟𝑎𝑐𝑖ó𝑛 𝑑𝑒 𝑙𝑎 𝑔𝑟𝑎𝑣𝑒𝑑𝑎𝑑 𝑐𝑎𝑙𝑐𝑢𝑙𝑎𝑑𝑎 𝑒𝑛 9.8 𝑚/𝑠<sup>2</sup>
-              p.mb-0 𝑑= 𝐸𝑠 𝑙𝑎 𝑙𝑜𝑛𝑔𝑖𝑡𝑢𝑑 𝑑𝑒 𝑙𝑎 ℎ𝑢𝑒𝑙𝑙𝑎 𝑒𝑛 𝑚𝑒𝑡𝑟𝑜𝑠 “𝑚”
-              p.mb-0 𝜇= 𝐸𝑠 𝑒𝑙 𝑣𝑎𝑙𝑜𝑟 𝑑𝑒𝑙 𝑐𝑜𝑒𝑓𝑖𝑐𝑖𝑒𝑛𝑡𝑒 𝑑𝑒 𝑓𝑟𝑖𝑐𝑐𝑖ó𝑛 𝑑𝑒 𝑎𝑐𝑢𝑒r𝑑𝑜 𝑐𝑜𝑛 𝑙𝑎 𝑡𝑎𝑏𝑙𝑎 2 
-              p.mb-0 𝜃= 𝐸𝑠 𝑒𝑙 á𝑛𝑔𝑢𝑙𝑜 𝑑𝑒 𝑙𝑎 𝑝𝑒𝑛𝑑𝑖𝑒𝑛𝑡𝑒 (+𝑠 𝑖 𝑠𝑢𝑏𝑒 𝑦−𝑠𝑖 𝑏𝑎𝑗𝑎) 
-              p.mb-0 𝑉<sub>𝑓</sub>= 𝐿𝑎 𝑣𝑒𝑙𝑜𝑑𝑖𝑑𝑎𝑑 𝑓𝑖𝑛𝑎𝑙 𝑎𝑙 𝑚𝑜𝑚𝑒𝑛𝑡𝑜 𝑑𝑒𝑙 𝑖𝑚𝑝𝑎𝑐𝑡𝑜 𝑐𝑎𝑙𝑐𝑢𝑙𝑎𝑑𝑎 𝑒𝑛 𝑚/𝑠
+              p.mb-0 𝑔 = 𝐸𝑠 𝑙𝑎 𝑎𝑐𝑒𝑙𝑒𝑟𝑎𝑐𝑖ó𝑛 𝑑𝑒 𝑙𝑎 𝑔𝑟𝑎𝑣𝑒𝑑𝑎𝑑 𝑐𝑎𝑙𝑐𝑢𝑙𝑎𝑑𝑎 𝑒𝑛 9.8 𝑚/𝑠<sup>2</sup>
+              p.mb-0 𝑑 = 𝐸𝑠 𝑙𝑎 𝑙𝑜𝑛𝑔𝑖𝑡𝑢𝑑 𝑑𝑒 𝑙𝑎 ℎ𝑢𝑒𝑙𝑙𝑎 𝑒𝑛 𝑚𝑒𝑡𝑟𝑜𝑠 “𝑚”
+              p.mb-0 𝜇 = 𝐸𝑠 𝑒𝑙 𝑣𝑎𝑙𝑜𝑟 𝑑𝑒𝑙 𝑐𝑜𝑒𝑓𝑖𝑐𝑖𝑒𝑛𝑡𝑒 𝑑𝑒 𝑓𝑟𝑖𝑐𝑐𝑖ó𝑛 𝑑𝑒 𝑎𝑐𝑢𝑒r𝑑𝑜 𝑐𝑜𝑛 𝑙𝑎 𝑡𝑎𝑏𝑙𝑎 2 
+              p.mb-0 𝜃 = 𝐸𝑠 𝑒𝑙 á𝑛𝑔𝑢𝑙𝑜 𝑑𝑒 𝑙𝑎 𝑝𝑒𝑛𝑑𝑖𝑒𝑛𝑡𝑒 (+𝑠 𝑖 𝑠𝑢𝑏𝑒 𝑦−𝑠𝑖 𝑏𝑎𝑗𝑎) 
+              p.mb-0 𝑉<sub>𝑓</sub> = 𝐿𝑎 𝑣𝑒𝑙𝑜𝑑𝑖𝑑𝑎𝑑 𝑓𝑖𝑛𝑎𝑙 𝑎𝑙 𝑚𝑜𝑚𝑒𝑛𝑡𝑜 𝑑𝑒𝑙 𝑖𝑚𝑝𝑎𝑐𝑡𝑜 𝑐𝑎𝑙𝑐𝑢𝑙𝑎𝑑𝑎 𝑒𝑛 𝑚/𝑠
             
     .row.justify-content-center(data-aos="fade-down")
       .col-lg-10
@@ -477,7 +485,7 @@
               p.mb-0 d = distancia de proyección en metros. 
               p.mb-0 𝑉 = velocidad de atropello en m/s. 
               p.mb-0 𝛾 = aceleración del vehículo (m/s<sub>2</sub>). 
-              p.mb-0 𝛿= 0,03 (constante).
+              p.mb-0 𝛿 = 0,03 (constante).
       .py-5.bg-6(titulo="Modelo de Collins")
         .row.justify-content-center
           .col-md-11
@@ -490,7 +498,7 @@
               p.mb-0 d = distancia de proyección en metros. 
               p.mb-0 𝑉 = velocidad del vehículo en m/s. 
               p.mb-0 ℎ𝑚 = altura al centro de gravedad del peatón. 
-              p.mb-0 𝜇𝑝= coeficiente de fricción entre el peatón y la superficie del piso.
+              p.mb-0 𝜇𝑝 = coeficiente de fricción entre el peatón y la superficie del piso.
       .py-5.bg-6(titulo="Modelo de Serle")
         .row.justify-content-center
           .col-md-11
@@ -502,7 +510,7 @@
               p.mb-0 𝑉𝑚𝑖𝑛 = velocidad mínima de proyección del peatón m/s. 
               p.mb-0 X = distancia de proyección del peatón en metros . 
               p.mb-0 g = valor de la gravedad. 
-              p.mb-0 𝜇= 𝑐𝑜𝑒𝑓𝑖𝑐𝑖𝑒𝑛𝑡𝑒 𝑑𝑒 𝑓𝑟𝑖𝑐𝑐𝑖ó𝑛 𝑑𝑒𝑙 𝑝𝑒𝑎𝑡ó𝑛 𝑦 𝑒𝑙 𝑝𝑖𝑠𝑜.
+              p.mb-0 𝜇 = 𝑐𝑜𝑒𝑓𝑖𝑐𝑖𝑒𝑛𝑡𝑒 𝑑𝑒 𝑓𝑟𝑖𝑐𝑐𝑖ó𝑛 𝑑𝑒𝑙 𝑝𝑒𝑎𝑡ó𝑛 𝑦 𝑒𝑙 𝑝𝑖𝑠𝑜.
       .py-5.bg-6(titulo="Modelo de Fricke")
         .row.justify-content-center
           .col-md-11
@@ -512,9 +520,9 @@
             .bg-4.p-4 
               img.mb-4(src='@/assets/curso/temas/t1/form7.svg', alt='' style="width: 140px;")
               p.mb-0 𝑉<sub>𝑖</sub> = velocidad inicial del vehículo en m/s.
-              p.mb-0 𝑉<sub>𝑓</sub>= velocidad final del vehículo en m/s. 
+              p.mb-0 𝑉<sub>𝑓</sub> = velocidad final del vehículo en m/s. 
               p.mb-0 d = distancia de proyección del peatón en metros. 
-              p.mb-0 a= valor de la aceleración en m/s<sup>2</sup>.
+              p.mb-0 a = valor de la aceleración en m/s<sup>2</sup>.
 
 
 

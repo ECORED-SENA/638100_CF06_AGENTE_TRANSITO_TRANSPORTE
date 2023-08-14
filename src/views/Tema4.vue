@@ -270,7 +270,7 @@
 
     .row.mb-4(data-aos="fade-down")
       .col-lg-6.col-md-7
-        a.anexo(href="https://web.mintransporte.gov.co/rnat/app/ayudas/Resolucion_0011268_2012.pdf" target="_blank")
+        a.anexo(href="https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=92644" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
@@ -455,7 +455,7 @@
         p Herramienta utilizada para realizar cálculos físico matemáticos relacionados con accidentes de tránsito.
         .row.mb-4
           .col-lg-8
-            a.anexo(href="https://ractt.com/" target="_blank")
+            a.anexo(href="https://irat.causadirecta.com/ractt/propiedades-ractt#:~:text=RACTT%20es%20una%20poderosa%20herramienta,Informes%20Periciales%20y%20de%20Prevenci%C3%B3n" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto

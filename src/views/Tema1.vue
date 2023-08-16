@@ -230,7 +230,9 @@
       .col-lg-7.mb-4(data-aos="fade-right")
         p La Segunda Ley de Newton establece que la aceleración de un cuerpo se relaciona directamente con la fuerza aplicada y la masa del cuerpo. Esta ley se expresa matemáticamente de la siguiente manera: 
           span.t-gold.fw-bold.t-italic F=ma
-          |, donde F es la fuerza, 
+          |, donde 
+          span.t-gold.fw-bold.t-italic F 
+          | es la fuerza, 
           span.t-gold.fw-bold.t-italic m 
           | es la masa y 
           span.t-gold.fw-bold.t-italic a 
@@ -242,7 +244,7 @@
             .col-md-6.col-lg-5
               .tarjeta.bg-acento-contenido
                 .row.justify-content-center.align-items-center.text-white.p-4.py-2
-                  img(src='@/assets/curso/temas/t1/formula.svg', alt='')
+                  img(src='@/assets/curso/temas/t1/formula1.svg', alt='')
       .col-lg-5.col-md-8.col-12.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/t1/img8.svg', alt='')
 

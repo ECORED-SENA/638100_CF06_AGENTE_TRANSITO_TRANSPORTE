@@ -49,12 +49,51 @@
 
           h4.text-center(data-aos="fade") Principios de la criminalística
 
-          .col-lg-10
+          .d-lg-none.d-block.mb-5 
+            .row.justify-content-center
+              .col-md-6.mb-3
+                .tarjeta.fondo-tarj1.p-4
+                  img.mx-auto.mb-4(src='@/assets/curso/temas/t4/tarj-ico1.svg' alt='' style="width: 95px;")
+                  h5.text-center Uso
+                  p.text-center.mb-0 Clave para discernir el tipo de agente o instrumento utilizado en el hecho. El (los) vehículo(s) para el caso de accidentes de tránsito.
+              .col-md-6.mb-3
+                .tarjeta.fondo-tarj1.p-4
+                  img.mx-auto.mb-4(src='@/assets/curso/temas/t4/tarj-ico2.svg' alt='' style="width: 95px;")
+                  h5.text-center Producción
+                  p.text-center.mb-0 Rastro de evidencias materiales que prueban la participación del agente de un crimen (Huellas de frenado, trayectoria, arrastre).
+              .col-md-6.mb-3
+                .tarjeta.fondo-tarj1.p-4
+                  img.mx-auto.mb-4(src='@/assets/curso/temas/t4/tarj-ico3.svg' alt='' style="width: 95px;")
+                  h5.text-center Intercambio
+                  p.text-center.mb-0 Intercambio de materiales entre la víctima, el victimario y el lugar de los hechos. 
+              .col-md-6.mb-3
+                .tarjeta.fondo-tarj1.p-4
+                  img.mx-auto.mb-4(src='@/assets/curso/temas/t4/tarj-ico4.svg' alt='' style="width: 95px;")
+                  h5.text-center Correspondencia
+                  p.text-center.mb-0 Marcas o rastros en el cuerpo de la víctima que delatan el agente empleado en el hecho.
+              .col-md-6.mb-3
+                .tarjeta.fondo-tarj1.p-4
+                  img.mx-auto.mb-4(src='@/assets/curso/temas/t4/tarj-ico5.svg' alt='' style="width: 95px;")
+                  h5.text-center Reconstrucción
+                  p.text-center.mb-0   Recopiladas todas las pruebas, paso a paso de los hechos en el orden y forma en que fueron producidos.
+              .col-md-6.mb-3
+                .tarjeta.fondo-tarj1.p-4
+                  img.mx-auto.mb-4(src='@/assets/curso/temas/t4/tarj-ico6.svg' alt='' style="width: 95px;")
+                  h5.text-center Probabilidad
+                  p.text-center.mb-0  Tras la reconstrucción, cálculo de la probabilidad del resultado (variable de aproximación a la verdad: baja, mediana, alta o nula)
+              .col-md-6.mb-3
+                .tarjeta.fondo-tarj1.p-4
+                  img.mx-auto.mb-4(src='@/assets/curso/temas/t4/tarj-ico7.svg' alt='' style="width: 95px;")
+                  h5.text-center Certeza
+                  p.text-center.mb-0 Valoración de los indicios encontrados en el lugar de los hechos y su correspondencia con el acto criminal. 
+
+
+          .col-lg-10.d-lg-block.d-none
             SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
               .tarjeta.fondo-tarj1.p-4
                 img.mx-auto.mb-4(src='@/assets/curso/temas/t4/tarj-ico1.svg' alt='' style="width: 95px;")
                 h5.text-center Uso
-                p.text-center.mb-0 Clave para discernir el tipo de agente o instrumento utilizado en el hecho.  El(los) vehículo(s) para el caso de accidentes de tránsito.
+                p.text-center.mb-0 Clave para discernir el tipo de agente o instrumento utilizado en el hecho. El (los) vehículo(s) para el caso de accidentes de tránsito.
               .tarjeta.fondo-tarj1.p-4
                 img.mx-auto.mb-4(src='@/assets/curso/temas/t4/tarj-ico2.svg' alt='' style="width: 95px;")
                 h5.text-center Producción
@@ -176,9 +215,9 @@
       .col-lg-9.mb-5(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Figura 2.] Marco metodológico para la investigación de accidentes de tránsito
-        img.mb-3(src='@/assets/curso/temas/t4/fig2.svg', alt='Mapa de recuadros en secuencia donde se enuncian, recuadro a recuadro, los puntos del marco metodológico para investigación de accidentes de tránsito. La secuencia es la siguiente: 1, Etapa inicial de la investigación (toma de datos y evidencias). 2, planteamiento de la investigación. 3, Formulación de la investigación. 4, recolección de la información. 5, etapa de análisis (tratamiento y correclación de las evidencias). 6, Análisis de la información. 7, diseño del marco teórico. 8, presentación de hipótesis. 9, etapa de medición (aplicación de modelos físicos). 10, descripción de variables. 11, medición de variables. 12, contraste de hipótesis. 13, etapa de conclusión (presentación de la teoría concluyente). 14, dinámica del accidente. 15, retrospectiva del accidente. 16, construcción de la teoría del caso. 17, etapa de propuestas. 18, perspectiva del accidente')
+        img.mb-3(src='@/assets/curso/temas/t4/fig2.svg', alt='Esquema que muestra y detalla la estructura del marco metodológico para la investigación de accidentes de tránsito.')
         figcaption
-          p.mb-0 Nota. adaptada de Ramos, H. F. y Quiroga, L. A. (2017).
+          p.mb-0 Nota. Adaptada de Ramos, H. F. y Quiroga, L. A. (2017).
 
     p(data-aos="fade") Siguiendo este esquema metodológico, el investigador puede desarrollar su indagación, sustentado en la formalidad científica, además de contemplar la posibilidad de evaluar en cualquier parte del proceso, las actividades desarrolladas, con el fin de poder objetar sus resultados y examinar nuevos procesos para esclarecer a plenitud las causas que conllevaron a la materialización del hecho. 
     p.mb-4(data-aos="fade") Veamos a continuación el detalle de las actividades asociadas a cada una de las etapas, empezando por la etapa inicial: 
@@ -303,7 +342,7 @@
           .row(titulo="Medición de variables") 
             p Interpretación de modelos físicos y matemáticos para medir los fenómenos presentados.  Los datos que se miden deben concordar con las variables establecidas en la formulación de la investigación, que se estimaron en la descripción de variables.  Los investigadores deben sustentar las técnicas, teorías y postulados aplicados a las variables sometidas a medición e indicar los procedimientos y modelos aplicables, con su estimación bibliográfica.
           .row(titulo="Contraste de hipótesis")       
-            p Consecuente con la medición de las variables, la exposición de datos fiables y análisis practicados a los elementos materiales probatorios (EMP) y evidencia física (EF), se entrar a controvertir las hipótesis depurando las que guiarán la teoría del caso.
+            p Consecuente con la medición de las variables, la exposición de datos fiables y análisis practicados a los elementos materiales probatorios (EMP) y evidencia física (EF), se entra a controvertir las hipótesis depurando las que guiarán la teoría del caso.
       .col-lg-4.col-md-8.col-12.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/t4/img5.png', alt='')
 
@@ -479,7 +518,7 @@
           p.mb-0 #[b Figura 4.] Registro huella de frenado
         img.mb-3(src='@/assets/curso/temas/t4/fig4.png', alt='Tres imágenes fotográficas de un rastro de frenado. Se percibe la huella dejada sobre el asfalto por causa del frenado de un vehículo. El macro de la imagen muestra las medidas del pneumático, la distancia entre pneumáticos del vehículo y distancia entre la huellas y las señalizaciones propias de la vía. En la parte inferior se muestra una gráfica creada que representa al vehículo y la huella de frenado de este.')
         figcaption
-          p.mb-0 Nota. imágenes tomadas de Ramos, H. F. y Quiroga, L. A., p. 67, 70 (2017).
+          p.mb-0 Nota. Imágenes tomadas de Ramos, H. F. y Quiroga, L. A., p. 67, 70 (2017).
 
     p.mb-4(data-aos="fade") Para realizar el cálculo de la velocidad a partir del análisis de una huella de frenado, se requiere utilizar el concepto de movimiento acelerado, aplicando los modelos de la mecánica clásica y el coeficiente de rozamiento de referencia, entre 0.68 y 0.88 para el caso del asfalto (ver tabla a continuación)  
 
@@ -491,7 +530,7 @@
         .tabla-a.color-acento-contenido.tema4 
           table
             caption.mt-2
-              p.mb-0 Nota. tomada y adaptada de Ramos, H. F. y Quiroga, L. A., p. 147 (2017).
+              p.mb-0 Nota. Tomada y adaptada de Ramos, H. F. y Quiroga, L. A., p. 147 (2017).
             thead
               tr.text-white.bg-acento-contenido
                 th Superficie

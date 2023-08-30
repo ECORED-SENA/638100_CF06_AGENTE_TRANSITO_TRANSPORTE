@@ -202,7 +202,7 @@ export default {
     },
     {
       referencia:
-        'Farias , N. (2009). La entrevista en la investigación de los delitos. <em>Psicología Jurídica y Forense</em>.',
+        'Farias, N. (2009). La entrevista en la investigación de los delitos. <em>Psicología Jurídica y Forense</em>.',
     },
     {
       referencia:
@@ -244,7 +244,7 @@ export default {
     },
     {
       referencia:
-        'Rivani , B., Brougham, D. y Mason, R. (1981). <em>Pedestrian PostImpact Kinematics and Injury Patterns</em>. SAE International.',
+        'Rivani, B., Brougham, D. y Mason, R. (1981). <em>Pedestrian PostImpact Kinematics and Injury Patterns</em>. SAE International.',
       link: 'https://doi.org/10.4271/811024',
     },
     {

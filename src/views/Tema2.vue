@@ -39,42 +39,42 @@
             .col-3
               img(src='@/assets/curso/temas/t2/ico1.svg', alt='')
             .col-9 
-              p.mb-0 Lesiones en el tórax y en tronco o torso
+              p.mb-0 Lesiones en el tórax y en tronco o torso.
       .col-lg-4.col-md-6.mb-4
         .tarjeta.bg-hover.p-3.h-100
           .row.align-items-center
             .col-3
               img(src='@/assets/curso/temas/t2/ico2.svg', alt='')
             .col-9 
-              p.mb-0 Lesión cerebral
+              p.mb-0 Lesión cerebral.
       .col-lg-4.col-md-6.mb-4
         .tarjeta.bg-hover.p-3.h-100
           .row.align-items-center
             .col-3
               img(src='@/assets/curso/temas/t2/ico3.svg', alt='')
             .col-9 
-              p.mb-0 Lesiones en el cuello, cabeza y cara
+              p.mb-0 Lesiones en el cuello, cabeza y cara.
       .col-lg-4.col-md-6.mb-4
         .tarjeta.bg-hover.p-3.h-100
           .row.align-items-center
             .col-3
               img(src='@/assets/curso/temas/t2/ico4.svg', alt='')
             .col-9 
-              p.mb-0 Lesiones en las extremidades
+              p.mb-0 Lesiones en las extremidades.
       .col-lg-4.col-md-6.mb-4
         .tarjeta.bg-hover.p-3.h-100
           .row.align-items-center
             .col-3
               img(src='@/assets/curso/temas/t2/ico5.svg', alt='')
             .col-9 
-              p.mb-0 Lesiones en la columna vertebral
+              p.mb-0 Lesiones en la columna vertebral.
       .col-lg-4.col-md-6.mb-4
         .tarjeta.bg-hover.p-3.h-100
           .row.align-items-center
             .col-3
               img(src='@/assets/curso/temas/t2/ico6.svg', alt='')
             .col-9 
-              p.mb-0 Lesiones en la médula espinal
+              p.mb-0 Lesiones en la médula espinal.
 
     p.mb-4(data-aos="fade") Según los tipos de choques en la vía, los peatones pueden estar más propensos a sufrir algunas lesiones concretas, como se muestra a continuación:
 
@@ -86,19 +86,19 @@
           ul.lista-ul--color.color-secundario.fa-ul.mb-0
             li.mb-0.text-white
               i.fas.fa-car
-              | Lesión en rótula 
+              | Lesión en rótula.
             li.mb-0.text-white
               i.fas.fa-car
-              | Fracturas en fémur
+              | Fracturas en fémur.
             li.mb-0.text-white
               i.fas.fa-car
-              | Posible fractura en cadera
+              | Posible fractura en cadera.
             li.mb-0.text-white
               i.fas.fa-car
-              | Lesiones en metarsianos
+              | Lesiones en metarsianos.
             li.mb-0.text-white
               i.fas.fa-car
-              | Columna cervical
+              | Columna cervical.
       .col-lg-4.col-md-6.mb-4
         .tarjeta.bg-acento-contenido.p-4.h-100
           img.mb-4(src='@/assets/curso/temas/t2/tarj-ico2.svg', alt='' style="width: 85px;")
@@ -106,13 +106,13 @@
           ul.lista-ul--color.color-secundario.fa-ul.mb-0
             li.mb-0.text-white
               i.fas.fa-car
-              | Fractura de pelvis
+              | Fractura de pelvis.
             li.mb-0.text-white
               i.fas.fa-car
-              | Lesiones craneoencefálicas  
+              | Lesiones craneoencefálicas.  
             li.mb-0.text-white
               i.fas.fa-car
-              | Lesión hepática
+              | Lesión hepática.
       .col-lg-4.col-md-6.mb-4
         .tarjeta.bg-acento-contenido.p-4.h-100
           img.mb-4(src='@/assets/curso/temas/t2/tarj-ico3.svg', alt='' style="width: 85px;")
@@ -120,13 +120,13 @@
           ul.lista-ul--color.color-secundario.fa-ul.mb-0
             li.mb-0.text-white
               i.fas.fa-car
-              | Lesión en columna cervical 3
+              | Lesión en columna cervical 3.
             li.mb-0.text-white
               i.fas.fa-car
-              | Lesión en columna
+              | Lesión en columna.
             li.mb-0.text-white
               i.fas.fa-car
-              | Lesión en tórax
+              | Lesión en tórax.
       .col-lg-4.col-md-6.mb-4
         .tarjeta.bg-acento-contenido.p-4.h-100
           img.mb-4(src='@/assets/curso/temas/t2/tarj-ico4.svg', alt='' style="width: 85px;")
@@ -134,16 +134,16 @@
           ul.lista-ul--color.color-secundario.fa-ul.mb-0
             li.mb-0.text-white
               i.fas.fa-car
-              | Lesiones cerebrales por golpes en la cabeza
+              | Lesiones cerebrales por golpes en la cabeza.
             li.mb-0.text-white
               i.fas.fa-car
-              | Lesiones en las extremidades superiores e inferiores
+              | Lesiones en las extremidades superiores e inferiores.
             li.mb-0.text-white
               i.fas.fa-car
-              | Lesiones en clavícula
+              | Lesiones en clavícula.
             li.mb-0.text-white
               i.fas.fa-car
-              | Lesión de columna
+              | Lesión de columna.
       .col-lg-4.col-md-6.mb-4
         .tarjeta.bg-acento-contenido.p-4.h-100
           img.mb-4(src='@/assets/curso/temas/t2/tarj-ico5.svg', alt='' style="width: 85px;")
@@ -151,16 +151,16 @@
           ul.lista-ul--color.color-secundario.fa-ul.mb-0
             li.mb-0.text-white
               i.fas.fa-car
-              | Lesiones principalmente en dorso
+              | Lesiones principalmente en dorso.
             li.mb-0.text-white
               i.fas.fa-car
-              | Cabeza, cuello y cara
+              | Cabeza, cuello y cara.
             li.mb-0.text-white
               i.fas.fa-car
-              | Columna vertebral
+              | Columna vertebral.
             li.mb-0.text-white
               i.fas.fa-car
-              | Extremidades inferiores
+              | Extremidades inferiores.
       .col-lg-4.col-md-6.mb-4
         .tarjeta.bg-acento-contenido.p-4.h-100
           img.mb-4(src='@/assets/curso/temas/t2/tarj-ico6.svg', alt='' style="width: 85px;")
@@ -168,16 +168,16 @@
           ul.lista-ul--color.color-secundario.fa-ul.mb-0
             li.mb-0.text-white
               i.fas.fa-car
-              | Lesiones cerebrales
+              | Lesiones cerebrales.
             li.mb-0.text-white
               i.fas.fa-car
-              | Lesiones en cabeza, cuello y cara
+              | Lesiones en cabeza, cuello y cara.
             li.mb-0.text-white
               i.fas.fa-car
-              | Lesiones en columna vertebral
+              | Lesiones en columna vertebral.
             li.mb-0.text-white
               i.fas.fa-car
-              | Lesiones en extremidades 
+              | Lesiones en extremidades.
 
 
     

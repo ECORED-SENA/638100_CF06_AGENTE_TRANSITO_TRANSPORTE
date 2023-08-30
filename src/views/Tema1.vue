@@ -52,39 +52,39 @@
             ul.lista-ul--color.color-gold.fa-ul.ps-3
               li.mb-0 
                 i.fas.fa-chevron-right
-                | La acción del viento
+                | La acción del viento.
               li.mb-0 
                 i.fas.fa-chevron-right
-                | La resistencia al avance
+                | La resistencia al avance.
               li.mb-0 
                 i.fas.fa-chevron-right
-                | La fricción de los rodamientos
+                | La fricción de los rodamientos.
               li.mb-0 
                 i.fas.fa-chevron-right
-                | La intervención de la distribución
+                | La intervención de la distribución.
               li.mb-0 
                 i.fas.fa-chevron-right
-                | La redistribución de la masa por acción del sistema de suspensión
+                | La redistribución de la masa por acción del sistema de suspensión.
               li.mb-0 
                 i.fas.fa-chevron-right
-                | Otros
+                | Otros.
             p Tales factores intervienen en casos concretos como:
             ul.lista-ul--color.color-gold.fa-ul.ps-3
               li.mb-0 
                 i.fas.fa-chevron-right
-                | El sistema de frenos
+                | El sistema de frenos.
               li.mb-0 
                 i.fas.fa-chevron-right
-                | La humedad relativa
+                | La humedad relativa.
               li.mb-0 
                 i.fas.fa-chevron-right
-                | La presión de inflado
+                | La presión de inflado.
               li.mb-0 
                 i.fas.fa-chevron-right
-                | La temperatura
+                | La temperatura.
               li.mb-0 
                 i.fas.fa-chevron-right
-                | Otros
+                | Otros.
             .p-4.bg-2
               p.mb-0 Lo anterior no quiere decir que los cálculos siempre serán errados o no fiables, sino que la medición de los elementos y evidencias juega un papel primordial para la objetividad de los resultados y, aun teniendo buenos sistemas de medición, las expresiones matemáticas deben interpretarse como acercamientos muy confiables, con los cuales se hacen deducciones refutables, reproducibles, racionales y fácticas, pero con márgenes de error que deben ser controlados por los investigadores.
 
@@ -105,30 +105,54 @@
         img(src='@/assets/curso/temas/t1/img3.png', alt='')
 
     .fondo1-t1.px-4.mb-5.bg-shadow(data-aos="fade-down")
-      .row.align-items-end
-        .col-lg-3
+      .row.align-items-end.justify-content-center
+        .col-lg-3.col-8
           img(src='@/assets/curso/temas/t1/img4.png', alt='')
-        .col-lg-9.p-4
-          .tarjeta.bg-white
-            SlyderE.p-4.px-lg-5(indicadores="derecha")
-              .row
-                .col-md-8.mb-4.mb-md-0
+        .col-lg-9.p-2.p-lg-4
+          .d-lg-none.d-block
+            .tarjeta.bg-white.p-3.mb-4
+              .row.mb-3
+                .col-md-8.mb-3.mb-md-0
                   h5 Estática 
                   p Se encarga de las fuerzas que intervienen en los cuerpos que se encuentran en equilibrio mecánico, ya sea en reposo o en equilibrio cinético, es decir, la estática no solo estudia cuerpos que no se mueven, sino también a aquellos que se mueven a velocidad constante. Para poder comprender mejor la estática, es necesario referirse al término de “fuerza”, puesto que, para mantener los cuerpos en equilibrio, se requiere la actuación de fuerzas para conservar el movimiento o el reposo.
                 .col-md-4
                   img(src='@/assets/curso/temas/t1/slide-img1.png', alt='')
-              .row
-                .col-md-8.mb-4.mb-md-0
+            .tarjeta.bg-white.p-3.mb-4
+              .row.mb-3
+                .col-md-8.mb-3.mb-md-0
                   h5 Cinemática  
                   p La cinemática, por su parte, se encarga de estudiar el movimiento que tienen los cuerpos, además de su trayectoria en función del tiempo, pero no se ocupa de las causas que lo producen, donde se consideran principalmente los conceptos de velocidad, rapidez y aceleración, tomando en cuenta tres elementos básicos, que son: el tiempo, que se considera entidad que se deriva de movimiento; el espacio, que se describe a través de la geometría euclidiana; y un móvil, que es cualquier cuerpo o partícula.
                 .col-md-4
                   img(src='@/assets/curso/temas/t1/slide-img2.png', alt='')
-              .row
-                .col-md-7.mb-4.mb-md-0
+            .tarjeta.bg-white.p-3.mb-4
+              .row.mb-3
+                .col-md-7.mb-3.mb-md-0
                   h5 Dinámica   
                   p La dinámica estudia el movimiento y las causas que lo provocan, lo que indica que se concentra en las fuerzas que actúan sobre los cuerpos y los cambios de movimiento que estas producen sobre él.
                 .col-md-5
                   img(src='@/assets/curso/temas/t1/slide-img3.png', alt='')
+          
+          .tarjeta.bg-white
+            .d-lg-block.d-none
+              SlyderE.p-4.px-lg-5(indicadores="derecha")
+                .row
+                  .col-md-8.mb-4.mb-md-0
+                    h5 Estática 
+                    p Se encarga de las fuerzas que intervienen en los cuerpos que se encuentran en equilibrio mecánico, ya sea en reposo o en equilibrio cinético, es decir, la estática no solo estudia cuerpos que no se mueven, sino también a aquellos que se mueven a velocidad constante. Para poder comprender mejor la estática, es necesario referirse al término de “fuerza”, puesto que, para mantener los cuerpos en equilibrio, se requiere la actuación de fuerzas para conservar el movimiento o el reposo.
+                  .col-md-4
+                    img(src='@/assets/curso/temas/t1/slide-img1.png', alt='')
+                .row
+                  .col-md-8.mb-4.mb-md-0
+                    h5 Cinemática  
+                    p La cinemática, por su parte, se encarga de estudiar el movimiento que tienen los cuerpos, además de su trayectoria en función del tiempo, pero no se ocupa de las causas que lo producen, donde se consideran principalmente los conceptos de velocidad, rapidez y aceleración, tomando en cuenta tres elementos básicos, que son: el tiempo, que se considera entidad que se deriva de movimiento; el espacio, que se describe a través de la geometría euclidiana; y un móvil, que es cualquier cuerpo o partícula.
+                  .col-md-4
+                    img(src='@/assets/curso/temas/t1/slide-img2.png', alt='')
+                .row
+                  .col-md-7.mb-4.mb-md-0
+                    h5 Dinámica   
+                    p La dinámica estudia el movimiento y las causas que lo provocan, lo que indica que se concentra en las fuerzas que actúan sobre los cuerpos y los cambios de movimiento que estas producen sobre él.
+                  .col-md-5
+                    img(src='@/assets/curso/temas/t1/slide-img3.png', alt='')
 
 
     p.mb-4(data-aos="fade") La cinemática, concretamente, estudia los siguientes tipos de movimiento:
@@ -137,37 +161,37 @@
       .col-lg-12.col-12.px-lg-5.px-md-5.px-4
         .row.justify-content-center
 
-          .col-md-3.mb-4
+          .col-lg-3.col-md-6.mb-4
             .tarjeta.fondo3-t1.p-3.px-4.text-center.h-100
               img.mb-4.mx-auto(src='@/assets/curso/temas/t1/tarj-ico1.svg', alt='' style="width: 85px;")
               h5 Movimiento rectilíneo uniforme
               p Es el fenómeno donde los cuerpos se desplazan a velocidades constantes, en linera recta, sin aceleración o aceleración nula.
-          .col-md-3.mb-4
+          .col-lg-3.col-md-6.mb-4
             .tarjeta.fondo3-t1.p-3.px-4.text-center.h-100
               img.mb-4.mx-auto(src='@/assets/curso/temas/t1/tarj-ico2.svg', alt='' style="width: 85px;")
               h5 Movimiento rectilíneo uniformemente acelerado
               p Se trata de la variación de la velocidad que describe un cuerpo de manera lineal, siendo constante en el espacio-tiempo.
-          .col-md-3.mb-4
+          .col-lg-3.col-md-6.mb-4
             .tarjeta.fondo3-t1.p-3.px-4.text-center.h-100
               img.mb-4.mx-auto(src='@/assets/curso/temas/t1/tarj-ico3.svg', alt='' style="width: 85px;")
               h5 Movimiento armónico simple
               p Este tipo de movimiento es aquel donde los cuerpos se desplazan oscilando de un punto a otro, a manera de vaivén y de forma periódica, o sea, en intervalos de tiempo iguales.
-          .col-md-3.mb-4
+          .col-lg-3.col-md-6.mb-4
             .tarjeta.fondo3-t1.p-3.px-4.text-center.h-100
               img.mb-4.mx-auto(src='@/assets/curso/temas/t1/tarj-ico4.svg', alt='' style="width: 85px;")
               h5 Movimiento parabólico
               p Este combina dos movimientos rectilíneos, uno vertical (acelerado uniformemente) y otro horizontal (de velocidad constante).
-          .col-md-3.mb-4
+          .col-lg-3.col-md-6.mb-4
             .tarjeta.fondo3-t1.p-3.px-4.text-center.h-100
               img.mb-4.mx-auto(src='@/assets/curso/temas/t1/tarj-ico5.svg', alt='' style="width: 85px;")
               h5 Movimiento circular uniforme
               p Es el movimiento que describe un cuerpo realizando círculos perfectos, en un espacio determinado, sin que varíe la velocidad a través del tiempo.
-          .col-md-3.mb-4
+          .col-lg-3.col-md-6.mb-4
             .tarjeta.fondo3-t1.p-3.px-4.text-center.h-100
               img.mb-4.mx-auto(src='@/assets/curso/temas/t1/tarj-ico6.svg', alt='' style="width: 85px;")
               h5 Movimiento circular uniformemente acelerado
               p Es la variación de la velocidad de un cuerpo que describe un movimiento circular uniforme.
-          .col-md-3.mb-4
+          .col-lg-3.col-md-6.mb-4
             .tarjeta.fondo3-t1.p-3.px-4.text-center.h-100
               img.mb-4.mx-auto(src='@/assets/curso/temas/t1/tarj-ico7.svg', alt='' style="width: 85px;")
               h5 Movimiento armónico complejo
@@ -244,7 +268,7 @@
             .col-md-6.col-lg-5
               .tarjeta.bg-acento-contenido
                 .row.justify-content-center.align-items-center.text-white.p-4.py-2
-                  img(src='@/assets/curso/temas/t1/formula1.svg', alt='')
+                  img(src='@/assets/curso/temas/t1/formula1.svg', alt='Tarjeta que expone la fórmula de la fuerza: Fuerza (F) = masa (m) por aceleración (a).')
       .col-lg-5.col-md-8.col-12.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/t1/img8.svg', alt='')
 
@@ -283,13 +307,13 @@
         AcordionA(tipo="b" clase-tarjeta="tarjeta bg-1")
           .row(titulo="Fuerza neta")
             p Esta equivale al producto de la variación de la masa y la velocidad sobre la variación del tiempo en el que se desarrolla el fenómeno.
-            img(src='@/assets/curso/temas/t1/form1.svg', alt='' style="width:150px;")
+            img(src='@/assets/curso/temas/t1/form1.svg', alt='Imagen que muestra la fórmula de la fuerza neta: F (fuerza neta) es igual a Variación de m (masa) por v (velocidad), sobre variación de t (tiempo).' style="width:150px;")
           .row(titulo="Relación fuerza, masa, aceleración")
             p Partiendo de esto, se puede hacer una relación directa entre la fuerza, la masa y la aceleración, sin estimar que la masa sea o no constante. En el evento en que la masa sea constante, la expresión derivada quedaría así:
-            img(src='@/assets/curso/temas/t1/form2.svg', alt='' style="width:170px;")
+            img(src='@/assets/curso/temas/t1/form2.svg', alt='Imagen que muestra la siguiente fórmula: Fuerza neta es igual a m (masa)por variación de v (velocidad) sobre variación de t (tiempo).' style="width:170px;")
           .row(titulo="Expresión primordial")
             p Ya con esta derivada, se llega a la expresión primordial de la Segunda Ley de Newton, que indica:
-            img(src='@/assets/curso/temas/t1/form3.svg', alt='' style="width:105px;")
+            img(src='@/assets/curso/temas/t1/form3.svg', alt='Imagen que muestra la fórmula: Fuerza neta es igual a masa por aceleración.' style="width:105px;")
           .row(titulo="Cantidad de movimiento, <em>momentum</em>, ímpetu o momento lineal")
             p La cantidad de movimiento se conoce por la expresión #[b #[em p=mv]], que significa que la magnitud vectorial que tiene un cuerpo en movimiento es directamente proporcional al producto de la masa por la velocidad del objeto
       .col-lg-4.col-md-8.col-12.mb-4(data-aos="fade-left")
@@ -325,19 +349,19 @@
         ul.lista-ul--color.color-gold.fa-ul.ps-3
           li.mb-0 
             i.fas.fa-chevron-right
-            | Huellas de frenado
+            | Huellas de frenado.
           li.mb-0 
             i.fas.fa-chevron-right
-            | Arrastre
+            | Arrastre.
           li.mb-0 
             i.fas.fa-chevron-right
-            | Derrape
+            | Derrape.
           li.mb-0 
             i.fas.fa-chevron-right
-            | Deformaciones
+            | Deformaciones.
           li.mb-0 
             i.fas.fa-chevron-right
-            | Vuelcos o movimiento parabólico
+            | Vuelcos o movimiento parabólico.
 
     p.mb-4(data-aos="fade") En relación con el cálculo mediante huellas, estas son evidencias físicas que datan la dinámica de ocurrencia de un hecho de tránsito y usted debe tener presente:
 
@@ -351,10 +375,10 @@
             .bg-4.p-4 
               p.t-italic Vi=√2gdu 
               p Donde: 
-              p.mb-0 𝑉𝑖 = 𝑉𝑒𝑙𝑜𝑐𝑖𝑑𝑎𝑑 𝑖𝑛𝑖𝑐𝑖𝑎𝑙 𝑎 𝑙𝑎 𝑞𝑢𝑒 𝑣𝑖𝑎𝑗𝑎𝑏𝑎 𝑒𝑙 𝑣𝑒ℎí𝑐𝑢𝑙𝑜 𝑎𝑛𝑡𝑒𝑠 𝑑𝑒𝑙 𝑝𝑟𝑜𝑐𝑒𝑠𝑜 𝑑𝑒 𝑓𝑟𝑒𝑛𝑎𝑑𝑎 𝑒𝑛 𝑚/𝑠 
-              p.mb-0 𝑔 = 𝐸𝑠 𝑙𝑎 𝑎𝑐𝑒𝑙𝑒𝑟𝑎𝑐𝑖ó𝑛 𝑑𝑒 𝑙𝑎 𝑔𝑟𝑎𝑣𝑒𝑑𝑎𝑑 𝑐𝑎𝑙𝑐𝑢𝑙𝑎𝑑𝑎 𝑒𝑛 9.8 𝑚/𝑠<sup>2</sup> 
-              p.mb-0 𝑑 = 𝐸𝑠 𝑙𝑎 𝑙𝑜𝑛𝑔𝑖𝑡𝑢𝑑 𝑑𝑒 𝑙𝑎 ℎ𝑢𝑒𝑙𝑙𝑎 𝑒𝑛 𝑚𝑒𝑡𝑟𝑜𝑠 “𝑚” 
-              p.mb-0 𝜇 = 𝐸𝑠 𝑒𝑙 𝑣𝑎𝑙𝑜𝑟 𝑑𝑒𝑙 𝑐𝑜𝑒𝑓𝑖𝑐𝑖𝑒𝑛𝑡𝑒 𝑑𝑒 𝑓𝑟𝑖𝑐𝑐𝑖ó𝑛 𝑑𝑒 𝑎𝑐𝑢𝑒r𝑑𝑜 𝑐𝑜𝑛 𝑙𝑎 𝑡𝑎𝑏𝑙𝑎 2
+              p.mb-0 𝑉𝑖 = Velocidad inicial a la que viajaba el vecículo antes del proceso de frenada en 𝑚/𝑠
+              p.mb-0 𝑔 = Es la acelereción de la gravedad calculada en 9.8 𝑚/𝑠<sup>2</sup> 
+              p.mb-0 𝑑 = Es la longitud de la huella en metros “𝑚” 
+              p.mb-0 𝜇 = Es el valor del coeficiente de fricción
       .py-5.bg-6(titulo="Coeficiente de fricción")
         .row.justify-content-center
           .col-md-11
@@ -364,11 +388,11 @@
             .bg-4.p-4 
               p.t-italic 𝑉𝑖=√2𝑔𝑑(𝜇𝑐𝑜𝑠𝜃±𝑠𝑖𝑛𝜃) 
               p Donde: 
-              p.mb-0 𝑉𝑖 = 𝑉𝑒𝑙𝑜𝑐𝑖𝑑𝑎𝑑 𝑖𝑛𝑖𝑐𝑖𝑎𝑙 𝑎 𝑙𝑎 𝑞𝑢𝑒 𝑣𝑖𝑎𝑗𝑎𝑏𝑎 𝑒𝑙 𝑣𝑒ℎí𝑐𝑢𝑙𝑜 𝑎𝑛𝑡𝑒𝑠 𝑑𝑒𝑙 𝑝𝑟𝑜𝑐𝑒𝑠𝑜 𝑑𝑒 𝑓𝑟𝑒𝑛𝑎𝑑𝑎 𝑒𝑛 𝑚/𝑠 
+              p.mb-0 𝑉𝑖 = Velocidad inicial a la que viajaba el vecículo antes del proceso de frenada en 𝑚/𝑠
               p.mb-0 𝑔 = 𝐸𝑠 𝑙𝑎 𝑎𝑐𝑒𝑙𝑒𝑟𝑎𝑐𝑖ó𝑛 𝑑𝑒 𝑙𝑎 𝑔𝑟𝑎𝑣𝑒𝑑𝑎𝑑 𝑐𝑎𝑙𝑐𝑢𝑙𝑎𝑑𝑎 𝑒𝑛 9.8 𝑚/𝑠<sup>2</sup> 
-              p.mb-0 𝑑 = 𝐸𝑠 𝑙𝑎 𝑙𝑜𝑛𝑔𝑖𝑡𝑢𝑑 𝑑𝑒 𝑙𝑎 ℎ𝑢𝑒𝑙𝑙𝑎 𝑒𝑛 𝑚𝑒𝑡𝑟𝑜𝑠 “𝑚” 
-              p.mb-0 𝜇 = 𝐸𝑠 𝑒𝑙 𝑣𝑎𝑙𝑜𝑟 𝑑𝑒𝑙 𝑐𝑜𝑒𝑓𝑖𝑐𝑖𝑒𝑛𝑡𝑒 𝑑𝑒 𝑓𝑟𝑖𝑐𝑐𝑖ó𝑛 𝑑𝑒 𝑎𝑐𝑢𝑒r𝑑𝑜 𝑐𝑜𝑛 𝑙𝑎 𝑡𝑎𝑏𝑙𝑎 2
-              p.mb-0 𝜃 = 𝐸𝑠 𝑒𝑙 á𝑛𝑔𝑢𝑙𝑜 𝑑𝑒 𝑙𝑎 𝑝𝑒𝑛𝑑𝑖𝑒𝑛𝑡𝑒 (+𝑠 𝑖 𝑠𝑢𝑏𝑒 𝑦−𝑠𝑖 𝑏𝑎𝑗𝑎)
+              p.mb-0 𝑑 = Es la longitud de la huella en metros “𝑚” 
+              p.mb-0 𝜇 = Es el valor del coeficiente de fricción
+              p.mb-0 𝜃 = Es el ángulo de la pendiente (+ 𝑠𝑖 𝑠𝑢𝑏𝑒 𝑦 − 𝑠𝑖 𝑏𝑎𝑗𝑎)
       .py-5.bg-6(titulo="Vehículo que no se detiene")
         .row.justify-content-center
           .col-md-11
@@ -379,12 +403,12 @@
               p.t-italic 𝑉𝑖=√2𝑔𝑑𝜇+𝑉<sub>𝑓</sub><sup>2</sup>  
               p.t-italic 𝑉𝑖=√2𝑔𝑑(𝜇𝑐𝑜𝑠𝜃±𝑠𝑖𝑛𝜃)+𝑉<sub>𝑓</sub><sup>2</sup> 
               p Donde: 
-              p.mb-0 𝑉𝑖 = 𝑉𝑒𝑙𝑜𝑐𝑖𝑑𝑎𝑑 𝑖𝑛𝑖𝑐𝑖𝑎𝑙 𝑎 𝑙𝑎 𝑞𝑢𝑒 𝑣𝑖𝑎𝑗𝑎𝑏𝑎 𝑒𝑙 𝑣𝑒ℎí𝑐𝑢𝑙𝑜 𝑎𝑛𝑡𝑒𝑠 𝑑𝑒𝑙 𝑝𝑟𝑜𝑐𝑒𝑠𝑜 𝑑𝑒 𝑓𝑟𝑒𝑛𝑎𝑑𝑎 𝑒𝑛 𝑚/𝑠 
-              p.mb-0 𝑔 = 𝐸𝑠 𝑙𝑎 𝑎𝑐𝑒𝑙𝑒𝑟𝑎𝑐𝑖ó𝑛 𝑑𝑒 𝑙𝑎 𝑔𝑟𝑎𝑣𝑒𝑑𝑎𝑑 𝑐𝑎𝑙𝑐𝑢𝑙𝑎𝑑𝑎 𝑒𝑛 9.8 𝑚/𝑠<sup>2</sup>
-              p.mb-0 𝑑 = 𝐸𝑠 𝑙𝑎 𝑙𝑜𝑛𝑔𝑖𝑡𝑢𝑑 𝑑𝑒 𝑙𝑎 ℎ𝑢𝑒𝑙𝑙𝑎 𝑒𝑛 𝑚𝑒𝑡𝑟𝑜𝑠 “𝑚”
-              p.mb-0 𝜇 = 𝐸𝑠 𝑒𝑙 𝑣𝑎𝑙𝑜𝑟 𝑑𝑒𝑙 𝑐𝑜𝑒𝑓𝑖𝑐𝑖𝑒𝑛𝑡𝑒 𝑑𝑒 𝑓𝑟𝑖𝑐𝑐𝑖ó𝑛 𝑑𝑒 𝑎𝑐𝑢𝑒r𝑑𝑜 𝑐𝑜𝑛 𝑙𝑎 𝑡𝑎𝑏𝑙𝑎 2 
-              p.mb-0 𝜃 = 𝐸𝑠 𝑒𝑙 á𝑛𝑔𝑢𝑙𝑜 𝑑𝑒 𝑙𝑎 𝑝𝑒𝑛𝑑𝑖𝑒𝑛𝑡𝑒 (+𝑠 𝑖 𝑠𝑢𝑏𝑒 𝑦−𝑠𝑖 𝑏𝑎𝑗𝑎) 
-              p.mb-0 𝑉<sub>𝑓</sub> = 𝐿𝑎 𝑣𝑒𝑙𝑜𝑑𝑖𝑑𝑎𝑑 𝑓𝑖𝑛𝑎𝑙 𝑎𝑙 𝑚𝑜𝑚𝑒𝑛𝑡𝑜 𝑑𝑒𝑙 𝑖𝑚𝑝𝑎𝑐𝑡𝑜 𝑐𝑎𝑙𝑐𝑢𝑙𝑎𝑑𝑎 𝑒𝑛 𝑚/𝑠
+              p.mb-0 𝑉𝑖 = Velocidad inicial a la que viajaba el vecículo antes del proceso de frenada en 𝑚/𝑠
+              p.mb-0 𝑔 = 𝐸𝑠 𝑙𝑎 𝑎𝑐𝑒𝑙𝑒𝑟𝑎𝑐𝑖ó𝑛 𝑑𝑒 𝑙𝑎 𝑔𝑟𝑎𝑣𝑒𝑑𝑎𝑑 𝑐𝑎𝑙𝑐𝑢𝑙𝑎𝑑𝑎 𝑒𝑛 9.8 𝑚/𝑠<sup>2</sup> 
+              p.mb-0 𝑑 = Es la longitud de la huella en metros “𝑚” 
+              p.mb-0 𝜇 = Es el valor del coeficiente de fricción
+              p.mb-0 𝜃 = Es el ángulo de la pendiente (+ 𝑠𝑖 𝑠𝑢𝑏𝑒 𝑦 − 𝑠𝑖 𝑏𝑎𝑗𝑎)
+              p.mb-0 𝑉<sub>𝑓</sub> = La velocidad final al momento del impacto calculada en 𝑚/𝑠
             
     .row.justify-content-center(data-aos="fade-down")
       .col-lg-10
@@ -482,7 +506,7 @@
             p Para hallar la distancia de proyección. Distancia de proyección del peatón a partir de la aceleración del vehículo.
           .col-lg-7
             .bg-4.p-4 
-              img.mb-4(src='@/assets/curso/temas/t1/form4.svg', alt='' style="width: 115px;")
+              img.mb-4(src='@/assets/curso/temas/t1/form4.svg', alt='Imagen que muestra la fórmula para hallar la distancia de proyección.' style="width: 115px;")
               p Donde: 
               p.mb-0 d = distancia de proyección en metros. 
               p.mb-0 𝑉 = velocidad de atropello en m/s. 
@@ -495,7 +519,7 @@
             p Para hallar la distancia de proyección. Distancia de proyección del peatón a partir de la velocidad del vehículo.
           .col-lg-7
             .bg-4.p-4 
-              img.mb-4(src='@/assets/curso/temas/t1/form5.svg', alt='' style="width: 200px;")
+              img.mb-4(src='@/assets/curso/temas/t1/form5.svg', alt='Imagen que muestra la fórmula para hallar la distancia de proyección, según el modelo de Collins.' style="width: 200px;")
               p Donde: 
               p.mb-0 d = distancia de proyección en metros. 
               p.mb-0 𝑉 = velocidad del vehículo en m/s. 
@@ -508,11 +532,11 @@
             p Para hallar la velocidad de proyección del peatón.
           .col-lg-7
             .bg-4.p-4 
-              img.mb-4(src='@/assets/curso/temas/t1/form6.svg', alt='' style="width: 135px;")
+              img.mb-4(src='@/assets/curso/temas/t1/form6.svg', alt='Imagen que muestra la fórmula para hallar la velocidad del vehículo de proyección del peatón, según el modelo Serle' style="width: 135px;")
               p.mb-0 𝑉𝑚𝑖𝑛 = velocidad mínima de proyección del peatón m/s. 
-              p.mb-0 X = distancia de proyección del peatón en metros . 
+              p.mb-0 X = distancia de proyección del peatón en metros. 
               p.mb-0 g = valor de la gravedad. 
-              p.mb-0 𝜇 = 𝑐𝑜𝑒𝑓𝑖𝑐𝑖𝑒𝑛𝑡𝑒 𝑑𝑒 𝑓𝑟𝑖𝑐𝑐𝑖ó𝑛 𝑑𝑒𝑙 𝑝𝑒𝑎𝑡ó𝑛 𝑦 𝑒𝑙 𝑝𝑖𝑠𝑜.
+              p.mb-0 𝜇 = coeficiente de fricción del peatón y el piso.
       .py-5.bg-6(titulo="Modelo de Fricke")
         .row.justify-content-center
           .col-md-11
@@ -520,7 +544,7 @@
             p Para hallar la velocidad del vehículo que embiste.
           .col-lg-7
             .bg-4.p-4 
-              img.mb-4(src='@/assets/curso/temas/t1/form7.svg', alt='' style="width: 140px;")
+              img.mb-4(src='@/assets/curso/temas/t1/form7.svg', alt='Imagen que muestra la fórmula para hallar la velocidad del vehículo que embiste, según el modelo Fricke.' style="width: 140px;")
               p.mb-0 𝑉<sub>𝑖</sub> = velocidad inicial del vehículo en m/s.
               p.mb-0 𝑉<sub>𝑓</sub> = velocidad final del vehículo en m/s. 
               p.mb-0 d = distancia de proyección del peatón en metros. 
